@@ -17,3 +17,5 @@ plugins/Essentials/userdata
 usercache.json
 plugins/Multiverse-Core/worlds.yml
 plugins/ProtocolLib/lastupdate
+plugins/Essentials/usermap.csv
+plugins/Skript/backups/
