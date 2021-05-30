@@ -1,0 +1,52 @@
+{
+  "mirror": {
+    "horizontal": false,
+    "vertical": false,
+    "rotation": false
+  },
+  "result": {
+    "item": "{id:\"minecraft:golden_axe\",Count:1b,tag:{CustomModelData:1,Damage:0,AttributeModifiers:[{Amount:-3.2d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;-1556986022,-2090710946,-1761605040,-1830488137],Name:\"speed\"},{Amount:7.5d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-1911107143,-1931129872,-1207404405,-773766415],Name:\"speed\"}],display:{LocName:'{\"extra\":[{\"text\":\"Golden Hammer\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Golden Hammer\"}],\"text\":\"\"}'}}}"
+  },
+  "ingredients": {
+    "A": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "C": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "D": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    },
+    "F": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "H": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "shape": [
+    "ABC",
+    "DEF",
+    " H "
+  ]
+}

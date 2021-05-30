@@ -1,0 +1,42 @@
+{
+  "mirror": {
+    "horizontal": false,
+    "vertical": false,
+    "rotation": false
+  },
+  "result": {
+    "item": "{id:\"minecraft:gunpowder\",Count:4b}"
+  },
+  "shapeless": true,
+  "ingredients": {
+    "A": {
+      "var0": {
+        "item_key": "materials:sulphurdust",
+        "custom_amount": 0
+      }
+    },
+    "B": {
+      "var0": {
+        "item_key": "materials:sulphurdust",
+        "custom_amount": 0
+      }
+    },
+    "D": {
+      "var0": {
+        "item_key": "materials:sulphurdust",
+        "custom_amount": 0
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:coal\",Count:1b}"
+      }
+    }
+  },
+  "hidden": false,
+  "shape": [
+    "AB ",
+    "DE ",
+    "   "
+  ]
+}

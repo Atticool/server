@@ -1,0 +1,33 @@
+{
+  "mirror": {
+    "horizontal": false,
+    "vertical": true,
+    "rotation": false
+  },
+  "ingredients": {
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:wheat\",Count:1b}"
+      }
+    },
+    "D": {
+      "var0": {
+        "item": "{id:\"minecraft:wheat\",Count:1b}"
+      }
+    },
+    "F": {
+      "var0": {
+        "item": "{id:\"minecraft:wheat\",Count:1b}"
+      }
+    }
+  },
+  "result": {
+    "item_key": "food:croissant",
+    "custom_amount": 0
+  },
+  "shape": [
+    " B ",
+    "D F",
+    "   "
+  ]
+}

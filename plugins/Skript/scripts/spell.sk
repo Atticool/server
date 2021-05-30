@@ -1,0 +1,35 @@
+variables:
+  {spellitemnames::1} = 12
+  {spellnames::1} = "spellTradewinds"
+
+function getSpellName(targetitem:item) :: text:
+  set {_modeldata} to the custom model data of {_targetitem}
+  #broadcast "%{_modeldata}%"
+  loop {spellitemnames::*}:
+    set {_loopindex} to loop-index
+    if {_modeldata} = {spellitemnames::1}:
+      return {spellnames::1}
+      broadcast {spellnames::1}
+      exit 1 loop
+
+
+function spellTradewinds(targetuser:entity):
+  if {_targetuser} is a player:
+    set {_uuid} to {_targetuser}'s uuid
+    if {%{_uuid}%::2} = null or 0:
+      set {%{_uuid}%::2} to 200
+      set {_targetuser}'s walk speed to {_targetuser}'s walk speed + 0.1
+      loop {_duration} times:
+        subtract 1 from {_duration}
+        wait 1 tick
+        send the action bar "%{_duration}% ticks remaining of §3Tradewinds" to {_targetuser}
+        reset {_targetuser}'s walk speed
+    else:
+      message "§cThis is already active" to {_targetuser}
+
+
+on right click with enchanted book:
+  set {_item} to player's held item
+  set {_spellname} to getSpellName({_item})
+  if {_spellname} = "spellTradewinds":
+    spellTradewinds(player)

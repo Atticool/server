@@ -1,0 +1,44 @@
+on Skript start:
+  loop all players:
+    set {_uuid} to uuid of loop-value
+    set {%{_uuid}%::1} to "%loop-value%"
+    set {%{_uuid}%::2} to 0 #spellTradewinds duration
+
+on join:
+  set {_uuid} to uuid of player
+  set {%{_uuid}%::1} to "%player%"
+
+function getPlayerID(username:text) :: text:
+  set {_player} to {_username} parsed as player
+  return uuid of {_player}
+
+function getNBT(user:entity) :: text:
+  if {_user} is player:
+    set {_item} to {_user}'s held item
+    message nbt of {_item} to {_user}
+    return nbt of {_item}
+
+command /getplayerdata <string>:
+  aliases: gpd, playerdata, pd
+  usage: "/getplayerdata <player>"
+  description: "Gets the Skript variable data for the specified player."
+  permission: skript.getplayerid
+  permission message: "§cYou do not have the required permission to perform this command."
+  trigger:
+    set {_user} to arg-1 parsed as player
+    set {_uuid} to uuid of {_user}
+    message "§nData for %{_user}%:" to player
+    message "%{_uuid}%"
+    loop {%{_uuid}%::*}:
+      set {_message} to "%{_loop-value}%"
+      message {_message} to player
+
+command /getnbt:
+  aliases: nbt
+  usage: "/getnbt"
+  description: "gets the NBT data of the held item"
+  permission: skript.getnbt
+  permission message: "§cYou do not have the required permission to perform this command."
+  trigger:
+    set {_item} to player's held item
+    message nbt of {_item} to player

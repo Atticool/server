@@ -1,0 +1,47 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "result": {
+    "item_key": "weapons:katana_stone",
+    "custom_amount": 0
+  },
+  "ingredients": {
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:cobblestone\",Count:1b}"
+      },
+      "var1": {
+        "item": "{id:\"minecraft:blackstone\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:cobblestone\",Count:1b}"
+      },
+      "var1": {
+        "item": "{id:\"minecraft:blackstone\",Count:1b}"
+      }
+    },
+    "G": {
+      "var0": {
+        "item": "{id:\"minecraft:cobblestone\",Count:1b}"
+      },
+      "var1": {
+        "item": "{id:\"minecraft:blackstone\",Count:1b}"
+      }
+    },
+    "H": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "shape": [
+    " B ",
+    " E ",
+    "GH "
+  ]
+}

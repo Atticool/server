@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:leather_boots\",Count:1b,tag:{PublicBukkitValues:{\"wolfyutilities:custom_item\":\"armour:guard_boots\"},Unbreakable:1b,HideFlags:4,display:{LocName:'{\"extra\":[{\"text\":\"Guard Boots\"}],\"text\":\"\"}',Lore:['{\"extra\":[{\"text\":\"§W§U§_\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"§u\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i§t§y\"}],\"text\":\"\"}'],color:2439216,Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"Guard Boots\"}],\"text\":\"\"}'},Damage:0,AttributeModifiers:[{Amount:3.0d,Slot:\"feet\",AttributeName:\"minecraft:generic.armor\",Operation:0,UUID:[I;1732725172,856115285,-1464553347,-395422074],Name:\"customcrafting\"},{Amount:-0.1d,Slot:\"feet\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;1575676193,-1144699326,-1533110839,1599623974],Name:\"customcrafting\"},{Amount:0.5d,Slot:\"feet\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-1409765593,481250036,-1192393721,587901166],Name:\"customcrafting\"},{Amount:-0.1d,Slot:\"feet\",AttributeName:\"minecraft:generic.attack_speed\",Operation:2,UUID:[I;-1718224294,-702197950,-1214269093,1481040159],Name:\"customcrafting\"}]}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

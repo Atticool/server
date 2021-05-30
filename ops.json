@@ -1,0 +1,50 @@
+[
+  {
+    "uuid": "cf70e540-06a6-475b-a8cc-3bdcc2eb9896",
+    "name": "Pol",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "1f12bf8a-f985-4f61-b2c4-4c7dd2f6259c",
+    "name": "frickusernames",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5929dbd3-7f84-477a-b96c-14ff3204dd21",
+    "name": "polariginal",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "68f9f2ba-89f8-45e6-9169-a72ec5c2d50b",
+    "name": "Elzillatron",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "e572f7e4-a186-4642-97df-6b73ec6c763a",
+    "name": "Atticool",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4976cf40-ddab-4e7b-8fc8-022337ff0cc1",
+    "name": "Quayles78",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "061da2e1-e2d7-42d6-a758-000502e0b421",
+    "name": "Cloud9_aqua",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8ef0692d-01ac-4098-805d-73a20097830f",
+    "name": "port_manteau",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

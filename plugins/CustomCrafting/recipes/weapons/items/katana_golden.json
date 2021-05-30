@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:golden_sword\",Count:1b,tag:{CustomModelData:1,Damage:0,AttributeModifiers:[{Amount:0.1d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;-1794394959,422530980,-1119539304,-729040277],Name:\"customcrafting\"},{Amount:3.5d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-1583251566,-1478999570,-2006407581,-678260312],Name:\"speed\"},{Amount:-2.2d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;-278883691,934625509,-1624487413,-499824340],Name:\"speed\"}]}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

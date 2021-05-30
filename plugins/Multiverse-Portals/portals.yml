@@ -1,0 +1,10 @@
+portals:
+  dungeonblood_entrance:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: Atticool
+    location: 4.0,108.0,95.0:4.0,109.0,95.0
+    world: dungeon

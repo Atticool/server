@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:iron_axe\",Count:1b,tag:{CustomModelData:2,Damage:0,AttributeModifiers:[{Amount:5.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-578552035,-2090187531,-1726123234,-719480211],Name:\"speed\"},{Amount:-3.2d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;107763568,112673857,-1426296997,433670866],Name:\"speed\"},{Amount:-0.05d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;-700533529,440291047,-1825056045,-298241066],Name:\"speed\"}],display:{LocName:'{\"extra\":[{\"text\":\"Iron Mace\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Iron Mace\"}],\"text\":\"\"}'}}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

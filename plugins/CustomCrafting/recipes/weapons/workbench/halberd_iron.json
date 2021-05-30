@@ -1,0 +1,47 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "result": {
+    "item": "{id:\"minecraft:iron_sword\",Count:1b,tag:{CustomModelData:4,Damage:0,AttributeModifiers:[{Amount:9.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;1967166334,729367356,-2096464645,104069840],Name:\"speed\"},{Amount:-3.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;1122096831,1615612874,-1349811387,-843803608],Name:\"speed\"},{Amount:-0.1d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;1086207344,-1687337216,-2047331053,-848936793],Name:\"speed\"}],display:{LocName:'{\"extra\":[{\"text\":\"Iron Halberd\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Iron Halberd\"}],\"text\":\"\"}'}}}"
+  },
+  "ingredients": {
+    "A": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "C": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "D": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    },
+    "H": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "shape": [
+    "ABC",
+    "DE ",
+    " H "
+  ]
+}

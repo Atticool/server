@@ -1,0 +1,29 @@
+lastAccountName: nhanche1
+timestamps:
+  login: 1622019314011
+  lastteleport: 1621926553831
+  logout: 1622019580152
+ipAddress: 58.164.57.250
+lastlocation:
+  world: world
+  x: 43.73526451763685
+  y: 68.0
+  z: 89.67673160952279
+  yaw: -56.326538
+  pitch: 44.333633
+homes:
+  home:
+    world: world
+    x: 38.15969696431712
+    y: 68.0
+    z: 7.949999988079069
+    yaw: -326.8137
+    pitch: 20.10258
+logoutlocation:
+  world: world
+  x: 33.99362626917265
+  y: 61.0
+  z: 71.54774942473227
+  yaw: 108.85797
+  pitch: 17.72136
+godmode: false

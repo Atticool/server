@@ -1,0 +1,30 @@
+lastAccountName: frickusernames
+timestamps:
+  login: 1620476201297
+  lastteleport: 1620480588814
+  logout: 1620480821279
+ipAddress: 220.238.27.115
+lastlocation:
+  world: world
+  x: -81.25650843360803
+  y: 63.0
+  z: -257.40005582175854
+  yaw: -99.74819
+  pitch: 3.8998497
+godmode: false
+logoutlocation:
+  world: world
+  x: 76.07762236209857
+  y: 64.0
+  z: -20.853652375591537
+  yaw: -256.0598
+  pitch: 4.500063
+homes:
+  home:
+    world: world
+    x: -84.52270711045253
+    y: 63.0
+    z: -256.5887088180599
+    yaw: 85.05183
+    pitch: 1.9498518
+nickname: §4frick

@@ -1,0 +1,42 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "ingredients": {
+    "A": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "D": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "I": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "result": {
+    "item": "{id:\"minecraft:diamond_axe\",Count:1b,tag:{CustomModelData:4,Damage:0,AttributeModifiers:[{Amount:-3.2d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;2012002199,287853687,-2126967013,306809209],Name:\"speed\"},{Amount:6.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;956593576,1705003823,-1187209990,1567037615],Name:\"speed\"},{Amount:-0.05d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;1184707488,671108559,-2070624826,2088784389],Name:\"speed\"}],display:{LocName:'{\"extra\":[{\"text\":\"Diamond Mace\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Diamond Mace\"}],\"text\":\"\"}'}}}"
+  },
+  "shape": [
+    "AB ",
+    "DE ",
+    "  I"
+  ]
+}

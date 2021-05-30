@@ -1,0 +1,38 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "result": {
+    "item_key": "weapons:katana_diamond",
+    "custom_amount": 0
+  },
+  "ingredients": {
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "G": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "H": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "shape": [
+    " B ",
+    " E ",
+    "GH "
+  ]
+}

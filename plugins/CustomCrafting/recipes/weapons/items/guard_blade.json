@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:diamond_sword\",Count:1b,tag:{Unbreakable:1b,CustomModelData:3,HideFlags:4,display:{LocName:'{\"extra\":[{\"text\":\"Guard Blade\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"Guard Blade\"}],\"text\":\"\"}'},Damage:0,AttributeModifiers:[{Amount:-0.2d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;842850554,562777847,-1578388352,2036624443],Name:\"customcrafting\"},{Amount:9.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-868898035,404309089,-1812090705,1172412867],Name:\"customcrafting\"},{Amount:1.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.armor\",Operation:0,UUID:[I;-1261302829,-296467339,-1316468597,-1272346314],Name:\"customcrafting\"},{Amount:-3.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;-1962674203,1013074461,-1155044200,-47678242],Name:\"customcrafting\"}]}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

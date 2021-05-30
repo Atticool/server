@@ -1,0 +1,42 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "result": {
+    "item": "{id:\"minecraft:golden_axe\",Count:1b,tag:{CustomModelData:2,Damage:0,AttributeModifiers:[{Amount:-3.2d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;-1475106909,1025853912,-1770880686,1388864309],Name:\"speed\"},{Amount:3.5d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-1724294143,1278036626,-1289734236,-736711739],Name:\"speed\"},{Amount:-0.05d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;-1869271364,-2133766267,-1198318189,-1808690579],Name:\"speed\"}],display:{LocName:'{\"extra\":[{\"text\":\"Gold Mace\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Gold Mace\"}],\"text\":\"\"}'}}}"
+  },
+  "ingredients": {
+    "A": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "D": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "I": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "shape": [
+    "AB ",
+    "DE ",
+    "  I"
+  ]
+}

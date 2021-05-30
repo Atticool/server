@@ -1,0 +1,19 @@
+lastAccountName: mabboys
+timestamps:
+  login: 1620719341189
+  logout: 1620719344295
+ipAddress: 120.155.64.56
+lastlocation:
+  world: world
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: 77.5
+  y: 63.0
+  z: -81.5
+  yaw: 0.0
+  pitch: 0.0

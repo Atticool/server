@@ -1,0 +1,150 @@
+variables:
+  {woodensword::1} = "Wooden Katana"
+  {woodensword::2} = "Wooden Halberd"
+  {woodensword::3} = "Wooden Glaive"
+
+  {woodenaxe::1} = "Wooden Hammer"
+  {woodenaxe::2} = "Wooden Mace"
+
+  {stonesword::1} = "Stone Katana"
+  {stonesword::2} = "Stone Halberd"
+  {stonesword::3} = "Stone Glaive"
+
+  {stoneaxe::1} = "Stone Hammer"
+  {stoneaxe::2} = "Stone Mace"
+
+  {ironsword::1} = "Iron Katana"
+  {ironsword::2} = "Cleaver"
+  {ironsword::3} = "Fake Hero Sword"
+  {ironsword::4} = "Iron Halberd"
+  {ironsword::5} = "Rapier"
+  {ironsword::6} = "Iron Glaive"
+
+  {ironaxe::1} = "Iron Hammer"
+  {ironaxe::2} = "Iron Mace"
+  
+  {ironpickaxe::1} = "Worker's Pickaxe"
+
+  {goldensword::1} = "Golden Katana"
+  {goldensword::2} = "Hunter's Knife"
+  {goldensword::3} = "Ocean Cutlass"
+  {goldensword::4} = "Golden Halberd"
+  {goldensword::5} = "Golden Glaive"
+
+  {goldenaxe::1} = "Golden Hammer"
+  {goldenaxe::2} = "Golden Mace"
+
+  {diamondsword::1} = "Infested War Hammer"
+  {diamondsword::2} = "Diamond Katana"
+  {diamondsword::3} = "Guard Sword"
+  {diamondsword::4} = "Sword of Nox"
+  {diamondsword::5} = "Diamond Halberd"
+  {diamondsword::6} = "Shadowflame Knife"
+  {diamondsword::7} = "Soul Scythe"
+  {diamondsword::8} = "Diamond Glaive"
+
+  {diamondaxe::1} = "Guard Axe"
+  {diamondaxe::3} = "Diamond Hammer"
+  {diamondaxe::4} = "Diamond Mace"
+
+  {netheritesword::1} = "Necronomicon"
+  {netheritesword::2} = "Bloodborne Longblade"
+  {netheritesword::3} = "Bloodborne Greatsword"
+  {netheritesword::4} = "Netherite Katana"
+  {netheritesword::5} = "Netherite Halberd"
+  {netheritesword::6} = "Netherite Glaive"
+
+  {netheriteaxe::1} = "Netherite Hammer"
+  {netheriteaxe::2} = "Netherite Mace"
+  {netheriteaxe::3} = ""
+  {netheriteaxe::4} = "Blood Gauntlet"
+
+
+function getWeapon(weapon:item) :: text:
+  set {_modeldata} to custom model data of {_weapon}
+  if {_weapon} is a wooden sword:
+    return {woodensword::%{_modeldata}%}
+  if {_weapon} is a wooden axe:
+    return {woodenaxe::%{_modeldata}%}
+  if {_weapon} is a stone sword:
+    return {stonesword::%{_modeldata}%}
+  if {_weapon} is a stone axe:
+    return {stoneaxe::%{_modeldata}%}
+  if {_weapon} is a iron sword:
+    return {ironsword::%{_modeldata}%}
+  if {_weapon} is a iron axe:
+    return {ironaxe::%{_modeldata}%}
+  if {_weapon} is a iron pickaxe:
+    return {ironpickaxe::%{_modeldata}%}
+  if {_weapon} is a golden sword:
+    return {goldensword::%{_modeldata}%}
+  if {_weapon} is a golden axe:
+    return {goldenaxe::%{_modeldata}%}
+  if {_weapon} is a diamond sword:
+    return {diamondsword::%{_modeldata}%}
+  if {_weapon} is a diamond axe:
+    return {diamondaxe::%{_modeldata}%}
+  if {_weapon} is a netherite sword:
+    return {netheritesword::%{_modeldata}%}
+  if {_weapon} is a netherite axe:
+    return {netheriteaxe::%{_modeldata}%}
+
+function getWeaponType(weapon:item) :: text:
+  set {_gotweapon} to getWeapon({_weapon})
+  if {_gotweapon} is "Wooden Katana" or "Stone Katana" or "Iron Katana" or "Golden Katana" or "Diamond Katana" or "Netherite Katana":
+    return "Katana"
+  if {_gotweapon} is "Iron Halberd" or "Golden Halberd" or "Diamond Halberd":
+    return "Halberd"
+  if {_gotweapon} is "Iron Hammer" or "Golden Hammer" or "Diamond Hammer":
+    return "Hammer"
+  if {_gotweapon} is "Iron Mace" or "Golden Mace" or "Diamond Mace":
+    return "Mace"
+
+function weaponMace(user:entity, targetvictim:entity, strength:number, chance:number):
+  chance of {_chance}:
+    push {_targetvictim} (direction from {_user} to {_targetvictim}) at speed {_strength}
+
+#function weaponCleaver(user:player, targetvictim:entity, multiplier:number, chance:number):
+#  if {_targetvictim} is not a player:
+#    if death
+#    chance of {_chance}:
+#      loop ({_multiplier}-1) times:
+#
+#        drop (the drops)
+
+#function weaponHalberd(user:entity, targetvictim:entity, breakchance:number, damagechance:number, nodamagechance:number):    
+#  set {_item} to {_user}'s held item
+#  chance of {_breakchance}:
+#    damage {_item} by (max durability of {_item} / 10)
+#  chance of {_damagechance}:
+#    increase the damage by (the damage)
+#  chance of {_nodamagechance}:
+#    set the damage to 0
+
+
+
+on damage:
+  set {_damagerweapon} to damager's held item
+  set {_weapontype} to getWeaponType({_damagerweapon})
+  set {_weapon} to getWeapon({_damagerweapon})
+  if {_weapontype} is "Mace":
+    weaponMace(damager, victim, 2, 20)
+  if {_weapontype} is "Halberd":
+    chance of 0.1:
+      damage victim by (damage * -1)
+    chance of 0.1:
+      damage {_weapon} by (max durability of {_weapon} / 10)
+    chance of 0.05:
+      damage victim by (damage)
+
+
+on death:
+  set {_damagerweapon} to damager's held item
+  set {_weapontype} to getWeaponType({_damagerweapon})
+  set {_weapon} to getWeapon({_damagerweapon})
+  if {_weapon} is "Cleaver":
+    chance of 0.1:
+      drop (the drops)
+
+
+  

@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:leather_chestplate\",Count:1b,tag:{PublicBukkitValues:{\"wolfyutilities:custom_item\":\"armour:guard_chestplate\"},Unbreakable:1b,HideFlags:4,display:{LocName:'{\"extra\":[{\"text\":\"Guard Chestplate\"}],\"text\":\"\"}',Lore:['{\"extra\":[{\"text\":\"§W§U§_\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"§u\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i§t§y\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"§W§U§_\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"§u\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i§t§y\"}],\"text\":\"\"}'],color:3689794,Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"Guard Chestplate\"}],\"text\":\"\"}'},Damage:0,AttributeModifiers:[{Amount:6.5d,Slot:\"chest\",AttributeName:\"minecraft:generic.armor\",Operation:0,UUID:[I;13355099,-2137896914,-1180450770,1393898959],Name:\"customcrafting\"},{Amount:0.8d,Slot:\"chest\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;1613686253,-613464813,-1539280548,-580152291],Name:\"customcrafting\"},{Amount:-0.05d,Slot:\"chest\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;-1053633473,1942177228,-1552697792,-253598726],Name:\"customcrafting\"},{Amount:0.2d,Slot:\"chest\",AttributeName:\"minecraft:generic.knockback_resistance\",Operation:2,UUID:[I;1111859630,-1676457445,-1500533793,-1381733332],Name:\"customcrafting\"},{Amount:-0.1d,Slot:\"chest\",AttributeName:\"minecraft:generic.attack_speed\",Operation:2,UUID:[I;-403975493,900157108,-1147021333,-1044055390],Name:\"customcrafting\"}]}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

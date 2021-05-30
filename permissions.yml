@@ -1,0 +1,37 @@
+server.default:
+       description: Default Permissions
+       default: true
+       children:
+          essentials.compass: true
+          essentials.build: true
+          essentials.spawn: true
+          essentials.help: true
+          essentials.home.bed: true
+          essentials.home: true
+          essentials.sethome: true
+          essentials.getpos: true
+          essentials.fly.safelogin: false
+          essentials.tpa: true
+          essentials.tpaccept: true
+          essentials.tpacancel: true
+          essentials.msg: true
+          essentials.msg.multiple: true
+          customcrafting.item.knowledge_book: true
+          customcrafting.inv.recipe_book.*: true
+
+server.nonop:
+        description: Non-operator Permissions
+        default: not-op
+        children:
+          skript.getplayerid: false
+          skript.getnbt: false
+
+server.op:
+        description: Operator Permissions
+        default: op
+        children:
+          nocheatplus.admin: true
+          nocheatplus.shortcut.info: true
+          nocheatplus.shortcut.monitor: true
+
+

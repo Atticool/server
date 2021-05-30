@@ -1,0 +1,10 @@
+{
+  "result": {
+    "item_key": "food:toast",
+    "custom_amount": 0
+  },
+  "source": {
+    "item": "{id:\"minecraft:bread\",Count:1b}"
+  },
+  "cooking_time": 20
+}

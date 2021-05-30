@@ -1,0 +1,40 @@
+{
+  "mirror": {
+    "horizontal": false,
+    "vertical": false,
+    "rotation": false
+  },
+  "shapeless": true,
+  "ingredients": {
+    "A": {
+      "var0": {
+        "item_key": "weapons:rapier_goldenapple",
+        "custom_amount": 0
+      }
+    },
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:enchanted_golden_apple\",Count:1b}"
+      }
+    },
+    "C": {
+      "var0": {
+        "item": "{id:\"minecraft:enchanted_golden_apple\",Count:1b}"
+      }
+    },
+    "D": {
+      "var0": {
+        "item": "{id:\"minecraft:netherite_ingot\",Count:1b}"
+      }
+    }
+  },
+  "result": {
+    "item_key": "weapons:rapier_enchantedgoldenapple",
+    "custom_amount": 0
+  },
+  "shape": [
+    "ABC",
+    "D  ",
+    "   "
+  ]
+}

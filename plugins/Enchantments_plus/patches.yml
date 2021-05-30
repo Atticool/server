@@ -1,0 +1,45 @@
+piston:
+  enable: true
+explosion:
+  enable: true
+  removeBlocksInsteadOfCancel: false
+patch_ench_protect:
+  netherstep_removeBlocksInsteadOfCancel: false
+  frozenstep_removeBlocksInsteadOfCancel: false
+worldProtection:
+  spectral: true
+  native: true # If false the Plugin supports more Compatibility with world protection plugins however also allows for more exploits with plugins such as McMMO or Jobs.
+recipe:
+  misc:
+    arborist-doGoldenAppleDrop: true
+nerfs:
+  siphonRatio: 0.5 # Will be removed in v3.0.0! USe the power of the enchantment instead.
+  siphonsubstractAmour: true
+  shredCoolDownOnLaser: true
+# Specifies the reader / writer for enchantments. They can be divided into two main categories, NBT getters and Lore getters, NBT getters are more stable, however can bork other plugins and are inefficent
+# Lore Getters are more efficent, however prone to break with some edge-case plugins. they also have implicit backwards-compatibillity. The also work before 1.16
+# NBT The highly configurable, but laggy NBT getter
+# lwNBT The not very configurable, but stable NBT getter
+# PR47-lore The not very configurable, but stable Lore getter, the name comes from the PR it was introduced first, PR #47
+# advLore The higly configurable experimental Lore getter
+enchantmentGatherer: "advLore"
+# the list of materials can be found at https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html. The plugin will not attempt to read enchantments from these items.
+# Only works for advanced lore getters
+getterAllow:
+  - "SWORD"
+  - "AXE"
+  - "SHOVEL"
+  - "HOE"
+  - "SHEARS"
+  - "HELMET"
+  - "CHESTPLATE"
+  - "LEGGINGS"
+  - "BOOTS"
+  - "FISHING_ROD"
+  - "BOW"
+  - "ELYTRA"
+  - "FLINT_AND_STEEL"
+  - "BOOK"
+denyPartial: true # whether even partial matches shall be denied (dangerous for some things, such as GRASS (You could also mean GRASS_PATH and GRASS_BLOCK)!), requires longer startup times, but sleaker configuration.
+isAllowlist: true # handles whether the above list is interpretated as an allowlist (if set to true) or used as a denylist (if set to false)
+pluginCompat: # Of course the compatibillities will be automatically disabled if the plugin was not found

@@ -1,0 +1,10 @@
+{
+  "result": {
+    "item_key": "food:appleingot",
+    "custom_amount": 0
+  },
+  "source": {
+    "item": "{id:\"minecraft:apple\",Count:1b}"
+  },
+  "cooking_time": 20
+}

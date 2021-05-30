@@ -1,0 +1,43 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "result": {
+    "item_key": "weapons:mace_iron",
+    "custom_amount": 0
+  },
+  "ingredients": {
+    "A": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "D": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "I": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "shape": [
+    "AB ",
+    "DE ",
+    "  I"
+  ]
+}

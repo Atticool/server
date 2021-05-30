@@ -1,0 +1,64 @@
+{
+  "mirror": {
+    "horizontal": false,
+    "vertical": false,
+    "rotation": false
+  },
+  "ingredients": {
+    "A": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "C": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "D": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item_key": "weapons:rapier_apple",
+        "custom_amount": 0
+      }
+    },
+    "F": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "G": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "H": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    },
+    "I": {
+      "var0": {
+        "item": "{id:\"minecraft:gold_ingot\",Count:1b}"
+      }
+    }
+  },
+  "result": {
+    "item_key": "weapons:rapier_goldenapple",
+    "custom_amount": 0
+  },
+  "shape": [
+    "ABC",
+    "DEF",
+    "GHI"
+  ]
+}

@@ -1,0 +1,29 @@
+lastAccountName: port_manteau
+timestamps:
+  login: 1621604671773
+  logout: 1621604828316
+  lastteleport: 1620481044263
+ipAddress: 123.243.87.42
+lastlocation:
+  world: world_nether
+  x: -26.429712772165402
+  y: 51.0
+  z: 49.06886432948553
+  yaw: -241.83203
+  pitch: 35.261044
+logoutlocation:
+  world: world
+  x: -413.4087408474415
+  y: 31.0
+  z: -116.5808657875716
+  yaw: -359.09152
+  pitch: 62.399776
+godmode: false
+homes:
+  home:
+    world: world
+    x: -430.30000001192093
+    y: 22.5
+    z: 45.09015029724955
+    yaw: 195.61157
+    pitch: 30.03405

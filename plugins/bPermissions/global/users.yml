@@ -1,0 +1,29 @@
+users:
+  dceeafab-7b7e-33c7-b7d0-c48ee32ef867:
+    username: pyraetos
+    permissions: []
+    groups:
+    - default
+    meta:
+      prefix: '&3helper'
+  164889bd-c136-30e7-9c93-c0679bd1fbbc:
+    username: rymate1234
+    permissions: []
+    groups:
+    - default
+    meta:
+      prefix: '&8developer'
+  dba2f115-6cc2-401b-a9e9-b4d27f7c897d:
+    username: codename_B
+    permissions: []
+    groups:
+    - default
+    meta:
+      prefix: '&8old developer'
+  069a79f4-44e9-4726-a5be-fca90e38aaf5:
+    username: Notch
+    permissions: []
+    groups:
+    - default
+    meta:
+      prefix: '&8mojang'

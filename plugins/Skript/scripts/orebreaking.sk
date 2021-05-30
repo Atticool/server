@@ -1,0 +1,125 @@
+on block place:
+  block is iron ore or coal ore or diamond ore or redstone ore or gold ore or emerald ore or lapis ore:
+    the gamemode of player is survival:
+      block's x-coordinate is smaller than 100:
+        block's z-coordinate is smaller than 100:
+          cancel event
+          send message "§4You cannot do that here" to player
+
+on Skript start:
+  loop {iron_ore::*}:
+    set block at {iron_ore::%loop-index%} to iron ore
+  loop {gold_ore::*}:
+    set block at {gold_ore::%loop-index%} to gold ore
+  loop {coal_ore::*}:
+    set block at {coal_ore::%loop-index%} to coal ore
+  loop {diamond_ore::*}:
+    set block at {diamond_ore::%loop-index%} to diamond ore
+  loop {emerald_ore::*}:
+    set block at {emerald_ore::%loop-index%} to emerald ore
+  loop {lapis_ore::*}:
+    set block at {lapis_ore::%loop-index%} to lapis ore
+  loop {redstone_ore::*}:
+    set block at {redstone_ore::%loop-index%} to redstone ore
+
+
+
+#on break of iron ore:
+#  the gamemode of player is survival:
+#    block's x-coordinate is smaller than 100:
+#      block's z-coordinate is smaller than 100:
+#        cancel event
+#        set block to bedrock
+#        set {_varname} to position of target block
+#        if {iron_ore::*} does not contain {_varname}:
+#          add {_varname} to {iron_ore::*}
+#        if player is holding stone pickaxe or iron pickaxe or diamond pickaxe or netherite pickaxe:
+#          give player iron ore
+#        #loop {iron_ore::*}:
+#          #broadcast {iron_ore::%loop-index%}
+#        wait 1 hour
+#        set block to iron ore
+
+#on break of coal ore:
+#  the gamemode of player is survival:
+#    block's x-coordinate is smaller than 100:
+#      block's z-coordinate is smaller than 100:
+#        cancel event
+#        set block to bedrock
+#        set {_varname} to position of target block
+#        if {coal_ore::*} does not contain {_varname}:
+#          add {_varname} to {coal_ore::*}
+#        if player is holding a pickaxe:
+#          give player coal
+#        wait 30 minutes
+#        set block to coal ore
+
+#on break of gold ore:
+#  the gamemode of player is survival:
+#    block's x-coordinate is smaller than 100:
+#      block's z-coordinate is smaller than 100:
+#        cancel event
+#        set block to bedrock
+#        set {_varname} to position of target block
+#        if {gold_ore::*} does not contain {_varname}:
+#          add {_varname} to {gold_ore::*}
+#        if player is holding an iron pickaxe or diamond pickaxe or netherite pickaxe:
+#          give player gold ore
+#        wait 4 hours
+#        set block to gold ore
+
+#on break of diamond ore:
+#  the gamemode of player is survival:
+#    block's x-coordinate is smaller than 100:
+#      block's z-coordinate is smaller than 100:
+#        cancel event
+#        set block to bedrock
+#        set {_varname} to position of target block
+#        if {diamond_ore::*} does not contain {_varname}:
+#          add {_varname} to {diamond_ore::*}
+#        if player is holding an iron pickaxe or a diamond pickaxe or netherite pickaxe:
+#          give player diamond
+#        wait 24 hours
+#        set block to diamond ore
+
+#on break of redstone ore:
+#  the gamemode of player is survival:
+#    block's x-coordinate is smaller than 100:
+#      block's z-coordinate is smaller than 100:
+#        cancel event
+#        set block to bedrock
+#        set {_varname} to position of target block
+#        if {redstone_ore::*} does not contain {_varname}:
+#          add {_varname} to {redstone_ore::*}
+#        if player is holding an iron pickaxe or a diamond pickaxe or netherite pickaxe:
+#          give player 4 redstone dust
+#        wait 8 hours
+#        set block to redstone ore
+
+#on break of lapis ore:
+#  the gamemode of player is survival:
+#    block's x-coordinate is smaller than 100:
+#      block's z-coordinate is smaller than 100:
+#        cancel event
+#        set block to bedrock
+#        set {_varname} to position of target block
+#        if {lapis_ore::*} does not contain {_varname}:
+#          add {_varname} to {lapis_ore::*}
+#        if player is holding a stone pickaxe or an iron pickaxe or a diamond pickaxe or netherite pickaxe:
+#          give player 7 lapis
+#        wait 4 hours
+#        set block to lapis ore
+
+#on break of emerald ore:
+#  the gamemode of player is survival:
+#    block's x-coordinate is smaller than 100:
+#      block's z-coordinate is smaller than 100:
+#        cancel event
+#        set block to bedrock
+#        set {_varname} to position of target block
+#        if {emerald_ore::*} does not contain {_varname}:
+#          add {_varname} to {emerald_ore::*}
+#        if player is holding an iron pickaxe or a diamond pickaxe or netherite pickaxe:
+#          give player emerald
+#        wait 12 hours
+#        set block to emerald ore

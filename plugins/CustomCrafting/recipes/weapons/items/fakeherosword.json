@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:iron_sword\",Count:1b,tag:{CustomModelData:3,Damage:0,AttributeModifiers:[{Amount:15.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;2142117856,-2101066029,-1835653047,259002641],Name:\"customcrafting\"},{Amount:-3.8d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;54365793,9388971,-1435790366,611817655],Name:\"customcrafting\"},{Amount:2.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.knockback_resistance\",Operation:2,UUID:[I;-932064720,1680491865,-1854076737,-1609768884],Name:\"customcrafting\"},{Amount:-0.4d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;1233486534,1151485945,-1199468879,-1235944513],Name:\"customcrafting\"},{Amount:1.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.armor\",Operation:0,UUID:[I;-639633852,557073512,-1403286858,-315404402],Name:\"customcrafting\"}],display:{LocName:'{\"extra\":[{\"text\":\"Fake Hero Sword\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"green\",\"text\":\"Fake Hero Sword\"}],\"text\":\"\"}'}}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

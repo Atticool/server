@@ -1,0 +1,35 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "result": {
+    "item_key": "weapons:rapier_apple",
+    "custom_amount": 0
+  },
+  "ingredients": {
+    "C": {
+      "var0": {
+        "item_key": "food:appleingot",
+        "custom_amount": 0
+      }
+    },
+    "E": {
+      "var0": {
+        "item_key": "food:appleingot",
+        "custom_amount": 0
+      }
+    },
+    "G": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "shape": [
+    "  C",
+    " E ",
+    "G  "
+  ]
+}

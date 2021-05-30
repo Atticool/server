@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:leather_helmet\",Count:1b,tag:{PublicBukkitValues:{\"wolfyutilities:custom_item\":\"armour:guard_helmet\"},Unbreakable:1b,HideFlags:4,display:{Lore:['{\"extra\":[{\"text\":\"§W§U§_\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"§u\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i§t§y\"}],\"text\":\"\"}'],color:3821380,Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"Guard Helmet\"}],\"text\":\"\"}'},Damage:0,AttributeModifiers:[{Amount:3.0d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Operation:0,UUID:[I;-1752189746,-349486033,-1966476233,527793967],Name:\"customcrafting\"},{Amount:-0.025d,Slot:\"head\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;-2137698174,194004748,-1679842841,-1058836267],Name:\"customcrafting\"},{Amount:0.5d,Slot:\"head\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-1343053426,1887913675,-1384484193,760016299],Name:\"customcrafting\"},{Amount:-0.1d,Slot:\"head\",AttributeName:\"minecraft:generic.attack_speed\",Operation:2,UUID:[I;651251710,-2047720562,-1922157015,-1022166988],Name:\"customcrafting\"}]}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

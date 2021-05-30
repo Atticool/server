@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:netherite_sword\",Count:1b,tag:{PublicBukkitValues:{\"wolfyutilities:custom_item\":\"weapons:rapier_enchantedgoldenapple\"},CustomModelData:8,HideFlags:1,display:{LocName:'{\"extra\":[{\"text\":\"Enchanted Golden Apple Rapier\"}],\"text\":\"\"}',Lore:['{\"extra\":[{\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_green\",\"text\":\"Enchanted\"}],\"text\":\"\"}'],Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"Enchanted Golden Apple Rapier\"}],\"text\":\"\"}'},Enchantments:[{lvl:3s,id:\"minecraft:looting\"},{lvl:5s,id:\"minecraft:unbreaking\"},{lvl:4s,id:\"minecraft:sweeping\"},{lvl:5s,id:\"minecraft:fire_aspect\"},{lvl:2s,id:\"minecraft:knockback\"},{lvl:1s,id:\"minecraft:mending\"}],Damage:0,AttributeModifiers:[{Amount:4.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;745494304,105466743,-1562149235,432747591],Name:\"customcrafting\"},{Amount:0.4d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;-1345340057,969819160,-1142654289,841523722],Name:\"customcrafting\"},{Amount:0.1d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.knockback_resistance\",Operation:2,UUID:[I;-477800081,-320781775,-2133249668,-883877015],Name:\"customcrafting\"},{Amount:-1.5d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;224852168,935347102,-1815427118,-1455705387],Name:\"customcrafting\"}]}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:leather_leggings\",Count:1b,tag:{PublicBukkitValues:{\"wolfyutilities:custom_item\":\"armour:guard_leggings\"},Unbreakable:1b,HideFlags:4,display:{LocName:'{\"extra\":[{\"text\":\"Guard Leggings\"}],\"text\":\"\"}',Lore:['{\"extra\":[{\"text\":\"§W§U§_\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"§u\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i§t§y\"}],\"text\":\"\"}','{\"extra\":[{\"text\":\"§W§U§_\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"light_purple\",\"text\":\"§u\"},{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i\"},{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"aqua\",\"text\":\"§i§t§y\"}],\"text\":\"\"}'],color:2439216,Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"Guard Leggings\"}],\"text\":\"\"}'},Damage:0,AttributeModifiers:[{Amount:6.0d,Slot:\"legs\",AttributeName:\"minecraft:generic.armor\",Operation:0,UUID:[I;1445567325,1311920026,-1331677063,1436150757],Name:\"customcrafting\"},{Amount:-0.05d,Slot:\"legs\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;119729965,1222983806,-1235433377,-1212019321],Name:\"customcrafting\"},{Amount:0.2d,Slot:\"legs\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-914624591,-46315867,-1258868852,426114134],Name:\"customcrafting\"},{Amount:-0.1d,Slot:\"legs\",AttributeName:\"minecraft:generic.attack_speed\",Operation:2,UUID:[I;-1570123004,-268615126,-1557840363,472540713],Name:\"customcrafting\"}]}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

@@ -1,0 +1,16 @@
+schematic: BTower.schem
+Chance:
+  Number: 1
+  OutOf: 1000
+StructureLocation:
+  Worlds: []
+  SpawnY: top
+  Biome: []
+StructureProperties:
+  PlaceAir: true
+  randomRotation: false
+  ignorePlants: true
+  spawnInWater: true
+  spawnInLavaLakes: true
+StructureLimitations:
+  whitelistSpawnBlocks: []

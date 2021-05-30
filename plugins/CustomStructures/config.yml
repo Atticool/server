@@ -1,0 +1,10 @@
+# 
+#             Custom Structures    
+configversion: 6
+debug: false
+bstats: true
+logStructures: false
+Structures:
+- demo
+- tower
+- Btower

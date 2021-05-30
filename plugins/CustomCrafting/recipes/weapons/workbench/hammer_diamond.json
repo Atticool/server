@@ -1,0 +1,52 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "result": {
+    "item": "{id:\"minecraft:diamond_axe\",Count:1b,tag:{CustomModelData:3,Damage:0,AttributeModifiers:[{Amount:-3.2d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;29201147,-1684059932,-1903518051,-858427174],Name:\"speed\"},{Amount:11.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-515234403,2004176146,-2003577609,1703323222],Name:\"speed\"}],display:{LocName:'{\"extra\":[{\"text\":\"Diamond Hammer\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Diamond Hammer\"}],\"text\":\"\"}'}}}"
+  },
+  "ingredients": {
+    "A": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "C": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "D": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    },
+    "F": {
+      "var0": {
+        "item": "{id:\"minecraft:diamond\",Count:1b}"
+      }
+    },
+    "H": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "shape": [
+    "ABC",
+    "DEF",
+    " H "
+  ]
+}

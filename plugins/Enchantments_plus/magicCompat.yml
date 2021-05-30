@@ -1,0 +1,515 @@
+# This is the magic compatibillity file. It can be used to alter the way the plugins thinks of some things.
+# This also allows for some crude compatibillity between (Minecraft) versions without having to upgrade / downgrade the Plugin.
+# Please note that the file is more meant to be futureproof than pastproof
+
+# default configurations as of Version 2.1.0 of the Enchantments+ Plugin, meant for use for minecraft 1.16.3
+
+version: "0" # currently unused and meant for future use. Version 0 is the default as of v2.1.2
+target: "16"
+
+grownCrops:
+  # grown crops, used by the harvest enchantment
+  - "WHEAT"
+  - "POTATOES"
+  - "CARROTS"
+  - "COCOA"
+  - "BEETROOTS"
+  - "NETHER_WART"
+  - "SWEET_BERRY_BUSH"
+melonCrops:
+  # melon-ish crops, such as Melons and Pumkins - Note: don't use their stems!
+  - "MELON"
+  - "PUMPKIN"
+airs:
+  # Air blocks, anything more to tell?
+  - "AIR"
+  - "CAVE_AIR"
+  - "VOID_AIR"
+ores:
+  # Self explainatory, isn't it?
+  - "COAL_ORE"
+  - "REDSTONE_ORE"
+  - "DIAMOND_ORE"
+  - "LAPIS_ORE"
+  - "IRON_ORE"
+  - "GLOWSTONE"
+  - "NETHER_QUARTZ_ORE"
+  - "EMERALD_ORE"
+  - "ANCIENT_DEBRIS" # 1.16 and beyond
+  - "GOLD_ORE"
+  - "NETHER_GOLD_ORE" # 1.16 and beyond
+dryBiomes:
+  # Biomes in which it doesn't rain. Used for the Blaze's curse enchantment to calculate whether damage should be dealth in rainy weather
+  - "DESERT"
+  - "FROZEN_OCEAN"
+  - "FROZEN_RIVER"
+  - "SNOWY_TUNDRA"
+  - "SNOWY_MOUNTAINS"
+  - "DESERT_HILLS"
+  - "SNOWY_BEACH"
+  - "SNOWY_TAIGA"
+  - "SNOWY_TAIGA_HILLS"
+  - "SAVANNA"
+  - "SAVANNA_PLATEAU"
+  - "BADLANDS"
+  - "WOODED_BADLANDS_PLATEAU"
+  - "BADLANDS_PLATEAU"
+  - "DESERT_LAKES"
+  - "ICE_SPIKES"
+  - "SNOWY_TAIGA_MOUNTAINS"
+  - "SHATTERED_SAVANNA"
+  - "SHATTERED_SAVANNA_PLATEAU"
+  - "ERODED_BADLANDS"
+  - "MODIFIED_WOODED_BADLANDS_PLATEAU"
+  - "MODIFIED_BADLANDS_PLATEAU"
+unbreakable:
+  # Blocks designated to be not breakable, used for the laser enchantment along other things
+  - "AIR"
+  - "BARRIER"
+  - "BEDROCK"
+  - "BUBBLE_COLUMN"
+  - "CAVE_AIR"
+  - "COMMAND_BLOCK"
+  - "CHAIN_COMMAND_BLOCK"
+  - "DRAGON_BREATH"
+  - "DRAGON_EGG"
+  - "END_CRYSTAL"
+  - "END_GATEWAY"
+  - "END_PORTAL"
+  - "END_PORTAL_FRAME"
+  - "MOVING_PISTON"
+  - "REPEATING_COMMAND_BLOCK"
+  - "STRUCTURE_BLOCK"
+  - "STRUCTURE_VOID"
+  - "PISTON_HEAD"
+  - "LAVA"
+  - "VOID_AIR"
+  - "WATER"
+laserDenylist:
+  # blocks that shouldn't be broken by the laser enchantment
+  - "OBSIDIAN"
+  - "CRYING_OBSIDIAN" # 1.16 and beyond
+terraformerAllowlist:
+  # Designated blocks that can be placed by the Terraformer enchantment. Since we are not to crazy this list doesn't contains things that are in Tags
+  - "WHITE_TERRACOTTA"
+  - "ORANGE_TERRACOTTA"
+  - "MAGENTA_TERRACOTTA"
+  - "LIGHT_BLUE_TERRACOTTA"
+  - "BLUE_TERRACOTTA"
+  - "BLACK_TERRACOTTA"
+  - "RED_TERRACOTTA"
+  - "GREEN_TERRACOTTA"
+  - "CYAN_TERRACOTTA"
+  - "GRAY_TERRACOTTA"
+  - "LIGHT_GRAY_TERRACOTTA"
+  - "YELLOW_TERRACOTTA"
+  - "LIME_TERRACOTTA"
+  - "PURPLE_TERRACOTTA"
+  - "PINK_TERRACOTTA"
+  - "WHITE_GLAZED_TERRACOTTA"
+  - "ORANGE_GLAZED_TERRACOTTA"
+  - "MAGENTA_GLAZED_TERRACOTTA"
+  - "LIGHT_BLUE_GLAZED_TERRACOTTA"
+  - "BLUE_GLAZED_TERRACOTTA"
+  - "BLACK_GLAZED_TERRACOTTA"
+  - "RED_GLAZED_TERRACOTTA"
+  - "GREEN_GLAZED_TERRACOTTA"
+  - "CYAN_GLAZED_TERRACOTTA"
+  - "GRAY_GLAZED_TERRACOTTA"
+  - "LIGHT_GRAY_GLAZED_TERRACOTTA"
+  - "YELLOW_GLAZED_TERRACOTTA"
+  - "LIME_GLAZED_TERRACOTTA"
+  - "PURPLE_GLAZED_TERRACOTTA"
+  - "PINK_GLAZED_TERRACOTTA"
+  - "WHITE_CONCRETE"
+  - "ORANGE_CONCRETE"
+  - "MAGENTA_CONCRETE"
+  - "LIGHT_BLUE_CONCRETE"
+  - "BLUE_CONCRETE"
+  - "BLACK_CONCRETE"
+  - "RED_CONCRETE"
+  - "GREEN_CONCRETE"
+  - "CYAN_CONCRETE"
+  - "GRAY_CONCRETE"
+  - "LIGHT_GRAY_CONCRETE"
+  - "YELLOW_CONCRETE"
+  - "LIME_CONCRETE"
+  - "PURPLE_CONCRETE"
+  - "PINK_CONCRETE"
+  - "WHITE_CONCRETE_POWDER"
+  - "ORANGE_CONCRETE_POWDER"
+  - "MAGENTA_CONCRETE_POWDER"
+  - "LIGHT_BLUE_CONCRETE_POWDER"
+  - "BLUE_CONCRETE_POWDER"
+  - "BLACK_CONCRETE_POWDER"
+  - "GRAY_CONCRETE_POWDER"
+  - "LIGHT_GRAY_CONCRETE_POWDER"
+  - "YELLOW_CONCRETE_POWDER"
+  - "LIME_CONCRETE_POWDER"
+  - "PURPLE_CONCRETE_POWDER"
+  - "PINK_CONCRETE_POWDER"
+  - "COBBLESTONE"
+  - "MOSSY_COBBLESTONE"
+  - "STONE"
+  - "GRANITE"
+  - "ANDESITE"
+  - "DIORITE"
+  - "BASALT"
+  - "BLACKSTONE"
+  - "BRICK"
+  - "TNT"
+  - "BOOKSHELF"
+  - "STONE_BRICKS"
+  - "NETHER_BRICK"
+  - "END_STONE"
+  - "QUARTZ_BLOCK"
+  - "WARPED_HYPHAE"
+  - "PRISMARINE"
+  - "RED_SANDSTONE"
+  - "NETHERRACK"
+  - "WARPED_NYLIUM"
+  - "COAL_ORE"
+  - "REDSTONE_ORE"
+  - "DIAMOND_ORE"
+  - "LAPIS_ORE"
+  - "IRON_ORE"
+  - "GLOWSTONE"
+  - "NETHER_QUARTZ_ORE"
+  - "EMERALD_ORE"
+  - "ANCIENT_DEBRIS" # 1.16 and beyond
+  - "GOLD_ORE"
+  - "NETHER_GOLD_ORE" # 1.16 and beyond
+terraformerAllowlistTags:
+  # please note that these have to be uppercase and this whole thing is prone to break. I'd not really recommend using it.
+  - "ICE"
+  - "LOGS"
+  - "ENDERMAN_HOLDABLE"
+  - "WOOL"
+shredAllowlistPickaxes:
+  # the allowlist for the shred enchantment, more specifically the blocks at which it fires for pickaxes
+  - "STONE"
+  - "GRANITE"
+  - "ANDESITE"
+  - "DIORITE"
+  - "SANDSTONE"
+  - "RED_SANDSTONE"
+  - "ICE"
+  - "PACKED_ICE"
+  - "BLUE_ICE"
+  - "BASALT" # 1.16 and beyond
+  - "COAL_ORE"
+  - "REDSTONE_ORE"
+  - "DIAMOND_ORE"
+  - "LAPIS_ORE"
+  - "IRON_ORE"
+  - "GLOWSTONE"
+  - "NETHER_QUARTZ_ORE"
+  - "EMERALD_ORE"
+  - "ANCIENT_DEBRIS" # 1.16 and beyond
+  - "GOLD_ORE"
+  - "NETHER_GOLD_ORE" # 1.16 and beyond
+  - "WHITE_TERRACOTTA"
+  - "ORANGE_TERRACOTTA"
+  - "MAGENTA_TERRACOTTA"
+  - "LIGHT_BLUE_TERRACOTTA"
+  - "BLUE_TERRACOTTA"
+  - "BLACK_TERRACOTTA"
+  - "RED_TERRACOTTA"
+  - "GREEN_TERRACOTTA"
+  - "CYAN_TERRACOTTA"
+  - "GRAY_TERRACOTTA"
+  - "LIGHT_GRAY_TERRACOTTA"
+  - "YELLOW_TERRACOTTA"
+  - "LIME_TERRACOTTA"
+  - "PURPLE_TERRACOTTA"
+  - "PINK_TERRACOTTA"
+  - "NETHERRACK"
+  - "WARPED_NYLIUM" # 1.16 and beyond
+  - "CRIMSON_NYLIUM" # 1.16 and beyond
+shredAllowlistShovels:
+  # the allowlist for the shred enchantment, more specifically the blocks at which it fires for shovels
+  - "DIRT"
+  - "GRASS_BLOCK"
+  - "SAND"
+  - "RED_SAND"
+  - "SOUL_SAND"
+  - "SOUL_SOIL" # 1.16 and beyond
+  - "SNOW"
+  - "SNOW_BLOCK"
+  - "COARSE_DIRT"
+  - "GRAVEL"
+spectralConversions:
+  # this basically maps the conversions used by the spectral enchantment. Syntax is "<source_material>:<target_material>". 
+  # Please note that they should be circulatory for the best gameplay experience
+  # Colo(u)rable blocks are handled automatically in the background for the sanity of all invloved parties (Mojang, please add)
+  - "GRASS_BLOCK:GRASS_PATH" # dirt-like conversions
+  - "GRASS_PATH:DIRT"
+  - "DIRT:MYCELIUM"
+  - "MYCELIUM:PODZOL"
+  - "PODZOL:COARSE_DIRT"
+  - "COARSE_DIRT:GRASS_BLOCK"
+  - "ICE:PACKED_ICE" # ice-like conversions
+  - "PACKED_ICE:BLUE_ICE"
+  - "BLUE_ICE:ICE"
+  - "WARPED_NYLIUM:CRIMSON_NYLIUM" # Nylium  / 1.16 and beyond
+  - "CRIMSON_NYLIUM:WARPED_NYLIUM"  # 1.16 and beyond
+  - "SAND:RED_SAND" # sand
+  - "RED_SAND:SAND"
+  - "OAK_LOG:STRIPPED_OAK_LOG" # Log - Stripped Log conversions
+  - "STRIPPED_OAK_LOG:OAK_LOG"
+  - "BIRCH_LOG:STRIPPED_BIRCH_LOG"
+  - "STRIPPED_BIRCH_LOG:BIRCH_LOG"
+  - "ACACIA_LOG:STRIPPED_ACACIA_LOG"
+  - "STRIPPED_ACACIA_LOG:ACACIA_LOG"
+  - "JUNGLE_LOG:STRIPPED_JUNGLE_LOG"
+  - "STRIPPED_JUNGLE_LOG:JUNGLE_LOG"
+  - "SPRUCE_LOG:STRIPPED_SPRUCE_LOG"
+  - "STRIPPED_SPRUCE_LOG:SPRUCE_LOG"
+  - "WARPED_STEM:STRIPPED_WARPED_STEM" # 1.16 and beyond
+  - "STRIPPED_WARPED_STEM:WARPED_STEM" # 1.16 and beyond
+  - "CRIMSON_STEM:STRIPPED_CRIMSON_STEM" # 1.16 and beyond
+  - "STRIPPED_CRIMSON_STEM:CRIMSON_STEM" # 1.16 and beyond
+  - "DARK_OAK_LOG:STRIPPED_DARK_OAK_LOG"
+  - "STRIPPED_DARK_OAK_LOG:DARK_OAK_LOG"
+  - "ACACIA_LEAVES:BIRCH_LEAVES" # Cycle between leaves
+  - "BIRCH_LEAVES:DARK_OAK_LEAVES"
+  - "DARK_OAK_LEAVES:JUNGLE_LEAVES"
+  - "JUNGLE_LEAVES:OAK_LEAVES"
+  - "OAK_LEAVES:SPRUCE_LEAVES"
+  - "SPRUCE_LEAVES:ACACIA_LEAVES"
+  - "ACACIA_PLANKS:BIRCH_PLANKS" # Cycle between planks
+  - "BIRCH_PLANKS:CRIMSON_PLANKS" # 1.16 and beyond
+  - "CRIMSON_PLANKS:DARK_OAK_PLANKS" # 1.16 and beyond
+  - "DARK_OAK_PLANKS:JUNGLE_PLANKS"
+  - "JUNGLE_PLANKS:OAK_PLANKS"
+  - "OAK_PLANKS:SPRUCE_PLANKS"
+  - "SPRUCE_PLANKS:WARPED_PLANKS" # 1.16 and beyond
+  - "WARPED_PLANKS:ACACIA_PLANKS" # 1.16 and beyond
+  - "ACACIA_SAPLING:BIRCH_SAPLING" # Cycle between Saplings
+  - "BIRCH_SAPLING:DARK_OAK_SAPLING"
+  - "DARK_OAK_SAPLING:JUNGLE_SAPLING"
+  - "JUNGLE_SAPLING:OAK_SAPLING"
+  - "OAK_SAPLING:SPRUCE_SAPLING"
+  - "SPRUCE_SAPLING:ACACIA_SAPLING"
+lumberTrunks: # Trunks for the lumber
+  - "ACACIA_LOG"
+  - "BIRCH_LOG"
+  - "CRIMSON_STEM"
+  - "DARK_OAK_LOG"
+  - "JUNGLE_LOG"
+  - "MUSHROOM_STEM"
+  - "OAK_LOG"
+  - "SPRUCE_LOG"
+  - "WARPED_STEM"
+lumberAllowlist: # Additional blocks for the BFS pathfind for Lumber (usefull to break big trees)
+  - "ACACIA_LEAVES"
+  - "AIR"
+  - "BIRCH_LEAVES"
+  - "BROWN_MUSHROOM"
+  - "CAVE_AIR"
+  - "COCOA"
+  - "DARK_OAK_LEAVES"
+  - "DIRT"
+  - "GRASS"
+  - "GRASS_BLOCK"
+  - "GRASS_PATH"
+  - "JUNGLE_LEAVES"
+  - "LAVA"
+  - "OAK_LEAVES"
+  - "RED_MUSHROOM"
+  - "SPRUCE_LEAVES"
+  - "VOID_AIR"
+  - "WATER"
+tools:
+  all:
+    - "WOODEN_AXE"
+    - "STONE_AXE"
+    - "IRON_AXE"
+    - "GOLDEN_AXE"
+    - "DIAMOND_AXE"
+    - "NETHERITE_AXE" # 1.16 and beyond
+    - "WOODEN_PICKAXE"
+    - "STONE_PICKAXE"
+    - "IRON_PICKAXE"
+    - "GOLDEN_PICKAXE"
+    - "DIAMOND_PICKAXE"
+    - "NETHERITE_PICKAXE" # 1.16 and beyond
+    - "WOODEN_SHOVEL"
+    - "STONE_SHOVEL"
+    - "IRON_SHOVEL"
+    - "GOLDEN_SHOVEL"
+    - "DIAMOND_SHOVEL"
+    - "NETHERITE_SHOVEL" # 1.16 and beyond
+    - "WOODEN_HOE"
+    - "STONE_HOE"
+    - "IRON_HOE"
+    - "GOLDEN_HOE"
+    - "DIAMOND_HOE"
+    - "NETHERITE_HOE" # 1.16 and beyond
+    - "LEATHER_HELMET"
+    - "CHAINMAIL_HELMET"
+    - "IRON_HELMET"
+    - "GOLDEN_HELMET"
+    - "DIAMOND_HELMET"
+    - "NETHERITE_HELMET" # 1.16 and beyond
+    - "LEATHER_CHESTPLATE"
+    - "CHAINMAIL_CHESTPLATE"
+    - "IRON_CHESTPLATE"
+    - "GOLDEN_CHESTPLATE"
+    - "DIAMOND_CHESTPLATE"
+    - "NETHERITE_CHESTPLATE" # 1.16 and beyond
+    - "ELYTRA"
+    - "LEATHER_LEGGINGS"
+    - "CHAINMAIL_LEGGINGS"
+    - "IRON_LEGGINGS"
+    - "GOLDEN_LEGGINGS"
+    - "DIAMOND_LEGGINGS"
+    - "NETHERITE_LEGGINGS" # 1.16 and beyond
+    - "LEATHER_BOOTS"
+    - "CHAINMAIL_BOOTS"
+    - "IRON_BOOTS"
+    - "GOLDEN_BOOTS"
+    - "DIAMOND_BOOTS"
+    - "NETHERITE_BOOTS" # 1.16 and beyond
+    - "WOODEN_SWORD"
+    - "STONE_SWORD"
+    - "IRON_SWORD"
+    - "GOLDEN_SWORD"
+    - "DIAMOND_SWORD"
+    - "NETHERITE_SWORD" # 1.16 and beyond
+    - "FISHING_ROD"
+    - "BOW"
+    - "SHEARS"
+    - "FLINT_AND_STEEL"
+    - "ENCHANTED_BOOK"
+  axe:
+    - "WOODEN_AXE"
+    - "STONE_AXE"
+    - "IRON_AXE"
+    - "GOLDEN_AXE"
+    - "DIAMOND_AXE"
+    - "NETHERITE_AXE" # 1.16 and beyond
+  pickaxe:
+    - "WOODEN_PICKAXE"
+    - "STONE_PICKAXE"
+    - "IRON_PICKAXE"
+    - "GOLDEN_PICKAXE"
+    - "DIAMOND_PICKAXE"
+    - "NETHERITE_PICKAXE" # 1.16 and beyond
+  shovel:
+    - "WOODEN_SHOVEL"
+    - "STONE_SHOVEL"
+    - "IRON_SHOVEL"
+    - "GOLDEN_SHOVEL"
+    - "DIAMOND_SHOVEL"
+    - "NETHERITE_SHOVEL" # 1.16 and beyond
+  hoe:
+    - "WOODEN_HOE"
+    - "STONE_HOE"
+    - "IRON_HOE"
+    - "GOLDEN_HOE"
+    - "DIAMOND_HOE"
+    - "NETHERITE_HOE" # 1.16 and beyond
+  helmet:
+    - "LEATHER_HELMET"
+    - "CHAINMAIL_HELMET"
+    - "IRON_HELMET"
+    - "GOLDEN_HELMET"
+    - "DIAMOND_HELMET"
+    - "NETHERITE_HELMET" # 1.16 and beyond
+  chestplate:
+    - "LEATHER_CHESTPLATE"
+    - "CHAINMAIL_CHESTPLATE"
+    - "IRON_CHESTPLATE"
+    - "GOLDEN_CHESTPLATE"
+    - "DIAMOND_CHESTPLATE"
+    - "NETHERITE_CHESTPLATE" # 1.16 and beyond
+  wings:
+    - "ELYTRA"
+  leggings:
+    - "LEATHER_LEGGINGS"
+    - "CHAINMAIL_LEGGINGS"
+    - "IRON_LEGGINGS"
+    - "GOLDEN_LEGGINGS"
+    - "DIAMOND_LEGGINGS"
+    - "NETHERITE_LEGGINGS" # 1.16 and beyond
+  boots:
+    - "LEATHER_BOOTS"
+    - "CHAINMAIL_BOOTS"
+    - "IRON_BOOTS"
+    - "GOLDEN_BOOTS"
+    - "DIAMOND_BOOTS"
+    - "NETHERITE_BOOTS" # 1.16 and beyond
+  sword:
+    - "WOODEN_SWORD"
+    - "STONE_SWORD"
+    - "IRON_SWORD"
+    - "GOLDEN_SWORD"
+    - "DIAMOND_SWORD"
+    - "NETHERITE_SWORD" # 1.16 and beyond
+  rod:
+    - "FISHING_ROD"
+  bow:
+    - "BOW"
+  shears:
+    - "SHEARS"
+transformation:
+  # this basically maps the entity pairs used by the transformation enchantment. Syntax is "<source_entity_type>:<target_entity_type>". 
+  # They should be circulatory for the best gameplay experience. 
+  # Please note that some pairs may not work for all versions, which is why I commented when you should remove them.
+  # BEWARE: the map's contents are pretty strict in naming
+  - "HUSK:DROWNED"
+  - "WITCH:VINDICATOR"
+  - "COD:SALMON"
+  - "PHANTOM:BLAZE"
+  - "HORSE:DONKEY"
+  - "SKELETON:STRAY"
+  - "CHICKEN:PARROT"
+  - "SQUID:DOLPHIN"
+  - "OCELOT:WOLF"
+  - "POLAR_BEAR:SHEEP"
+  - "COW:MUSHROOM_COW"
+  - "PIG:ZOMBIFIED_PIGLIN" # remove in versions before 1.16.1
+  - "SPIDER:CAVE_SPIDER"
+  - "SLIME:MAGMA_CUBE"
+  - "GUARDIAN:ELDER_GUARDIAN"
+  - "ENDERMITE:SILVERFISH"
+  - "SKELETON_HORSE:ZOMBIE_HORSE"
+  - "SHULKER:ENDERMAN"
+  - "SNOWMAN:IRON_GOLEM" # that's a bit too OP - so if you wan't to remove it - feel free to
+  - "DROWNED:ZOMBIE"
+  - "EVOKER:VINDICATOR"
+  - "SALMON:PUFFERFISH"
+  - "BLAZE:VEX"
+  - "DONKEY:MULE"
+  - "STRAY:WITHER_SKELETON"
+  - "PARROT:BAT"
+  - "DOLPHIN:TURTLE"
+  - "WOLF:OCELOT"
+  - "SHEEP:POLAR_BEAR"
+  - "MUSHROOM_COW:COW"
+  - "ZOMBIFIED_PIGLIN:PIG" # remove in versions before 1.16.1
+  - "CAVE_SPIDER:SPIDER"
+  - "MAGMA_CUBE:SLIME"
+  - "ELDER_GUARDIAN:GUARDIAN"
+  - "SILVERFISH:ENDERMITE"
+  - "ZOMBIE_HORSE:SKELETON_HORSE"
+  - "ENDERMAN:SHULKER"
+  - "IRON_GOLEM:SNOWMAN"
+  - "ZOMBIE:ZOMBIE_VILLAGER"
+  - "EVOKER:VILLAGER"
+  - "PUFFERFISH:TROPICAL_FISH"
+  - "VEX:GHAST"
+  - "MULE:LLAMA"
+  - "WITHER_SKELETON:SKELETON"
+  - "BAT:CHICKEN"
+  - "TURTLE:SQUID"
+  - "ZOMBIE_VILLAGER:HUSK"
+  - "VILLAGER:WITCH"
+  - "TROPICAL_FISH:COD"
+  - "GHAST:PHANTOM"
+  - "LLAMA:HORSE"
+  - "HOGLIN:ZOGLIN" # remove in versions before 1.16.1
+  - "ZOGLIN:HOGLIN" # remove in versions before 1.16.1
+  - "RABBIT:RABBIT" # remove to remove the killer bunny change
+  - "CREEPER:CREEPER" # remove to remove the change of the charged state

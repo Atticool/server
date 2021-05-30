@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:diamond_axe\",Count:1b,tag:{Unbreakable:1b,CustomModelData:1,HideFlags:4,display:{LocName:'{\"extra\":[{\"text\":\"Guard Axe\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"yellow\",\"text\":\"Guard Axe\"}],\"text\":\"\"}'},Damage:0,AttributeModifiers:[{Amount:15.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-854972394,-463319612,-1811355935,-1242471638],Name:\"customcrafting\"},{Amount:-3.6d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;781399656,1024937648,-2128157481,892747411],Name:\"customcrafting\"},{Amount:2.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.armor\",Operation:0,UUID:[I;1798783198,374689337,-1665492642,665250943],Name:\"customcrafting\"},{Amount:-0.3d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;-339879219,-1029553388,-2100654657,1240540148],Name:\"customcrafting\"}]}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

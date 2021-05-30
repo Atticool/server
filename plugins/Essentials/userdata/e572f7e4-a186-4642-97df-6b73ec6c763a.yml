@@ -1,0 +1,46 @@
+logoutlocation:
+  world: dungeon
+  x: -108.95821276112292
+  y: 6.493169113168927
+  z: 170.25835970558222
+  yaw: -35.3042
+  pitch: 20.664598
+timestamps:
+  logout: 1621855502161
+  login: 1621855415674
+  lastteleport: 1621173792537
+lastAccountName: Atticool
+ipAddress: 203.158.48.181
+lastlocation:
+  world: test
+  x: -199.03911613356016
+  y: 4.0
+  z: -29.4772677917283
+  yaw: -111.08128
+  pitch: 43.29585
+powertools: {}
+godmode: false
+unlimited: []
+afk: false
+homes:
+  home:
+    world: world
+    x: -412.9048146133721
+    y: 63.0
+    z: -23.246282481209413
+    yaw: 186.12549
+    pitch: 14.25813
+  spawner1:
+    world: world
+    x: -429.0600364143406
+    y: 39.0
+    z: 41.44002455725678
+    yaw: 94.12979
+    pitch: 9.298167
+  fortress_nether:
+    world: world_nether
+    x: -362.4401916069927
+    y: 53.0
+    z: 88.90741268720619
+    yaw: -184.63873
+    pitch: 4.81049

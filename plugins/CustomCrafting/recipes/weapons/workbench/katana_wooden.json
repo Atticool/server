@@ -1,0 +1,101 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "ingredients": {
+    "B": {
+      "var0": {
+        "item": "{id:\"minecraft:oak_planks\",Count:1b}"
+      },
+      "var1": {
+        "item": "{id:\"minecraft:crimson_planks\",Count:1b}"
+      },
+      "var2": {
+        "item": "{id:\"minecraft:spruce_planks\",Count:1b}"
+      },
+      "var3": {
+        "item": "{id:\"minecraft:acacia_planks\",Count:1b}"
+      },
+      "var4": {
+        "item": "{id:\"minecraft:warped_planks\",Count:1b}"
+      },
+      "var5": {
+        "item": "{id:\"minecraft:dark_oak_planks\",Count:1b}"
+      },
+      "var6": {
+        "item": "{id:\"minecraft:jungle_planks\",Count:1b}"
+      },
+      "var7": {
+        "item": "{id:\"minecraft:birch_planks\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:oak_planks\",Count:1b}"
+      },
+      "var1": {
+        "item": "{id:\"minecraft:acacia_planks\",Count:1b}"
+      },
+      "var2": {
+        "item": "{id:\"minecraft:dark_oak_planks\",Count:1b}"
+      },
+      "var3": {
+        "item": "{id:\"minecraft:spruce_planks\",Count:1b}"
+      },
+      "var4": {
+        "item": "{id:\"minecraft:birch_planks\",Count:1b}"
+      },
+      "var5": {
+        "item": "{id:\"minecraft:jungle_planks\",Count:1b}"
+      },
+      "var6": {
+        "item": "{id:\"minecraft:warped_planks\",Count:1b}"
+      },
+      "var7": {
+        "item": "{id:\"minecraft:crimson_planks\",Count:1b}"
+      }
+    },
+    "G": {
+      "var0": {
+        "item": "{id:\"minecraft:oak_planks\",Count:1b}"
+      },
+      "var1": {
+        "item": "{id:\"minecraft:crimson_planks\",Count:1b}"
+      },
+      "var2": {
+        "item": "{id:\"minecraft:acacia_planks\",Count:1b}"
+      },
+      "var3": {
+        "item": "{id:\"minecraft:spruce_planks\",Count:1b}"
+      },
+      "var4": {
+        "item": "{id:\"minecraft:warped_planks\",Count:1b}"
+      },
+      "var5": {
+        "item": "{id:\"minecraft:birch_planks\",Count:1b}"
+      },
+      "var6": {
+        "item": "{id:\"minecraft:dark_oak_planks\",Count:1b}"
+      },
+      "var7": {
+        "item": "{id:\"minecraft:jungle_planks\",Count:1b}"
+      }
+    },
+    "H": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "result": {
+    "item_key": "weapons:katana_wooden",
+    "custom_amount": 0
+  },
+  "shape": [
+    " B ",
+    " E ",
+    "GH "
+  ]
+}

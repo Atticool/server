@@ -1,0 +1,32 @@
+{
+  "mirror": {
+    "horizontal": true,
+    "vertical": false,
+    "rotation": false
+  },
+  "ingredients": {
+    "C": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "E": {
+      "var0": {
+        "item": "{id:\"minecraft:iron_ingot\",Count:1b}"
+      }
+    },
+    "G": {
+      "var0": {
+        "item": "{id:\"minecraft:stick\",Count:1b}"
+      }
+    }
+  },
+  "result": {
+    "item": "{id:\"minecraft:iron_sword\",Count:1b,tag:{CustomModelData:5,Damage:0,AttributeModifiers:[{Amount:3.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_damage\",Operation:0,UUID:[I;-418707213,-979154084,-1077667724,1094144263],Name:\"customcrafting\"},{Amount:-2.0d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.attack_speed\",Operation:0,UUID:[I;622034455,253051214,-1840158488,-171223072],Name:\"customcrafting\"},{Amount:0.1d,Slot:\"mainhand\",AttributeName:\"minecraft:generic.movement_speed\",Operation:2,UUID:[I;-633671158,43533059,-2098989705,-1930854585],Name:\"customcrafting\"}],display:{LocName:'{\"extra\":[{\"text\":\"Rapier\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Rapier\"}],\"text\":\"\"}'}}}"
+  },
+  "shape": [
+    "  C",
+    " E ",
+    "G  "
+  ]
+}

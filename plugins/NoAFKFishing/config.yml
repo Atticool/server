@@ -1,0 +1,22 @@
+#Whether to check entities near the player rather than the world's fishing hooks
+#In most cases, you should keep this false
+nearby-mode: false
+
+#Ignore this if nearby-mode is set to false.
+#Range around the player to look for fishing hooks
+#Note: fishing hooks can be up to ~33 blocks away from the player
+nearby-range: 34
+
+
+
+#Delay in ticks to remove fishing hooks after right clicking
+hook-remove-delay: 2
+
+#Types of right clicks where hooks will be removed
+#air = right-clicking air
+#block = right-clicking a block
+#entity = right-clicking an entity
+right-clicks:
+    - air
+    - block
+    - entity
