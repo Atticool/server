@@ -4,3 +4,13 @@ level.dat
 level.dat_old
 session.lock
 raids.dat
+plugins/Essentials/userdata
+/delnether/
+/dungeon/
+/elora/
+/elora_nether/
+/elora_the_end/
+/test/
+/world/
+/world_nether/
+/world_the_end/
