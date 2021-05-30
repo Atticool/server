@@ -19,3 +19,6 @@ plugins/Multiverse-Core/worlds.yml
 plugins/ProtocolLib/lastupdate
 plugins/Essentials/usermap.csv
 plugins/Skript/backups/
+plugins/Multiverse-Inventories/groups/
+plugins/Multiverse-Inventories/players/
+plugins/Multiverse-Inventories/worlds/
