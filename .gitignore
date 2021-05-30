@@ -22,3 +22,6 @@ plugins/Skript/backups/
 plugins/Multiverse-Inventories/groups/
 plugins/Multiverse-Inventories/players/
 plugins/Multiverse-Inventories/worlds/
+plugins/CustomCrafting/playerstats.dat
+plugins/NoCheatPlus/nocheatplus.log
+plugins/Skript/variables.csv

@@ -1,17 +1,18 @@
 {
   "flame_spiral_down": {
-    "cooldown": 1,
+    "count": 0,
     "duration": 20,
+    "cooldown": 1,
     "icon": "minecraft:blaze_powder",
     "name": "&6Flame Spiral &8[&7Down&8]",
     "description": [
-      "&7A flame spiral that goes",
-      "&7downwards into the ground."
+      "§7A flame spiral that goes",
+      "§7downwards into the ground."
     ],
     "particles": [
       {
         "particle": "wolfyutilities:flame",
-        "extra": 0.0000001,
+        "extra": 1.0E-7,
         "scripts": [
           "file=scripts/flame_spiral_down.js"
         ]
@@ -19,12 +20,13 @@
     ]
   },
   "advanced_workbench": {
-    "cooldown": 1,
+    "count": 0,
     "duration": 2,
+    "cooldown": 1,
     "icon": "minecraft:crafting_table",
     "name": "&6Advanced Workbench",
     "description": [
-      "&7Default Advanced Workbench particles"
+      "§7Default Advanced Workbench particles"
     ],
     "particles": [
       {
@@ -41,8 +43,9 @@
     ]
   },
   "green_redstone": {
-    "cooldown": 0,
+    "count": 0,
     "duration": 3,
+    "cooldown": 0,
     "icon": "minecraft:redstone",
     "name": "&aGreen Redstone",
     "description": [],
