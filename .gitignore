@@ -1,9 +1,6 @@
 
 logs
-logs/*
-delnether/DIM-1/data/raids.dat
-dungeon/data/raids.dat
-*/level.dat
-*/level.dat_old
-*/session.lock
-elora/data/raids.dat
+level.dat
+level.dat_old
+session.lock
+raids.dat
