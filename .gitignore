@@ -29,3 +29,4 @@ plugins/NoCheatPlus/nocheatplus.log.lck
 plugins/WolfyUtilities/particles/particle_effects.json
 plugins/WolfyUtilities/particles/particles.json
 plugins/DiscordSRV/config.yml
+plugins/DiscordSRV/discord-console-logs/
