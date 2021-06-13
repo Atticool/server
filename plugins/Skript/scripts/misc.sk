@@ -1,3 +1,15 @@
 on explosion:
   cancel event
 
+on place:
+  if event-block is player head or player wall head:
+    cancel event
+    #if helmet slot of player is not air:
+      #message "&cYou cannot do this here." to player
+
+on right click:
+  event-item is player head:
+    if helmet slot of player is air:
+      equip player with event-item
+      if player's gamemode is survival or adventure:
+        delete player's held item

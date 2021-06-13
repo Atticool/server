@@ -31,3 +31,4 @@ plugins/WolfyUtilities/particles/particles.json
 plugins/DiscordSRV/config.yml
 plugins/DiscordSRV/discord-console-logs/
 plugins/DiscordSRV/linkedaccounts.json
+plugins/WolfyUtilities/stored_block_items.dat
