@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:player_head\",Count:1b,tag:{SkullOwner:{Id:[I;695837246,1285705698,-1264098523,-292221101],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTYyMzU5MjY4MTA5MiwKICAicHJvZmlsZUlkIiA6ICIyOTc5YTIzZTRjYTI0ZmUyYjRhNzYzMjVlZTk1MGY1MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBd2FpcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yM2ZmYjQ1ZjI4MmFjZTllMTcxZDcyN2YyZDIyOWI4OTg0YWE2NzdiOGRjN2Y3ODg5YzBmMzdjOGI5ZTJlMWY4IgogICAgfQogIH0KfQ==\",Signature:\"MuSTtuD1qI1Unw00vssLZVWLQRZks1f/eUORGQjiNUtnkSDR50Of3n+Blw75vhj4WPWJtrR/OEwcvpRjxwMHWA9umDunTflARm4JK7mD/P457zPFLyiaSuMoRC0gzwO7P5FZ92FsP1je8A8chNkmSg+TS+McAh7oI7LKd/o8qlnt/wIa7iFG4pg6RHXip1zRDrevU5oOCM/LdxrtdGD2cQdmVg7TrajZALlLtOfw9aGMj7eDwTeHUDqtVROTk/wLu7DrOIXAXw7eiveqeMjTqGeQPcubOk2PH0bbQTbgzRoM9TweGf1bsBFbroVNcqtnNATKNg6AC/k1r0vHgXlx8WgxWioDgHxQgvn9+BbwnWtBa29V70AgnVEm/C6/74iF+bSt/R/m6totdbKqsu2NkzCR/IEzGzujw3VcQsvMizljxSL0c76RLd6h8efWB7VogXlezm1Ab8Z3HuCajRqyvkvfnsHAdF+ubW2nPChmognkOd78ZarUrvNLFVuZ0dczixsqgarjffp/NMjCoDgC38qsHDfPnZOi0Mvr/cl9mS0tlf5PETm/nHcgp9Vu2iZKNtHU6ZRF3lboFho12XYoNZ5+gcinFNQZ2uMAZfvw00uKawNOu1LppniJo5kzlexrg5lsDmdiDeW2lIuDyY0JE62j7e0CsS22yC5Hrlqvo0E=\"}]},Name:\"Awais\"},AttributeModifiers:[{Amount:4.5d,Slot:\"head\",AttributeName:\"minecraft:generic.armor\",Operation:0,UUID:[I;-2078366312,20073073,-2046446475,-1140791950],Name:\"customcrafting\"},{Amount:0.1d,Slot:\"head\",AttributeName:\"minecraft:generic.attack_speed\",Operation:2,UUID:[I;863059181,213600236,-1153675358,-1711889038],Name:\"customcrafting\"},{Amount:0.2d,Slot:\"head\",AttributeName:\"minecraft:generic.attack_damage\",Operation:2,UUID:[I;206046330,-1447476713,-1928177894,-64255644],Name:\"customcrafting\"},{Amount:0.2d,Slot:\"head\",AttributeName:\"minecraft:generic.max_health\",Operation:2,UUID:[I;-464363068,-2055257227,-1105564607,-1650861867],Name:\"customcrafting\"}],display:{LocName:'{\"extra\":[{\"text\":\"Blood Lord\\'s Mask\"}],\"text\":\"\"}',Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_red\",\"text\":\"Blood Lord\\'s Mask\"}],\"text\":\"\"}'}}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}

@@ -1,0 +1,28 @@
+{
+  "item": "{id:\"minecraft:leather_boots\",Count:1b,tag:{Unbreakable:1b,CustomModelData:1,HideFlags:4,display:{LocName:'{\"extra\":[{\"text\":\"Blood Boots\"}],\"text\":\"\"}',color:5505024,Name:'{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_red\",\"text\":\"Blood Boots\"}],\"text\":\"\"}'},Damage:0,AttributeModifiers:[{Amount:4.0d,Slot:\"feet\",AttributeName:\"minecraft:generic.armor\",Operation:0,UUID:[I;197203441,1917274753,-1677678675,-166953396],Name:\"customcrafting\"},{Amount:0.05d,Slot:\"feet\",AttributeName:\"minecraft:generic.attack_speed\",Operation:2,UUID:[I;2011662164,1170231095,-1302002170,969670022],Name:\"customcrafting\"},{Amount:0.1d,Slot:\"feet\",AttributeName:\"minecraft:generic.max_health\",Operation:2,UUID:[I;1522964248,1760250654,-1470002267,-444880036],Name:\"customcrafting\"}]}}",
+  "meta": "{\"damage\":\"EXACT\",\"potion\":\"EXACT\",\"lore\":\"EXACT\",\"playerHead\":\"EXACT\",\"flags\":\"EXACT\",\"attributes_modifiers\":\"EXACT\",\"customModelData\":\"EXACT\",\"enchant\":\"EXACT\",\"custom_damage\":\"EXACT\",\"name\":\"EXACT\",\"unbreakable\":\"EXACT\",\"custom_durability\":\"EXACT\",\"repairCost\":\"EXACT\"}",
+  "fuel": {
+    "burntime": 0,
+    "allowed_blocks": [
+      "furnace"
+    ]
+  },
+  "consumed": true,
+  "rarity_percentage": 1.0,
+  "permission": "",
+  "custom_data": {
+    "elite_workbench": {
+      "gridSize": 3,
+      "advancedRecipes": false,
+      "keepItems": false,
+      "enabled": false,
+      "allowHoppers": false
+    }
+  },
+  "replacement": {
+    "item": null
+  },
+  "durability_cost": 0,
+  "equipment_slots": [],
+  "particles": {}
+}
