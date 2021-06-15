@@ -42,5 +42,3 @@ variables:
     {itemlist::weapons::23} = "rapier_enchantedgoldenapple"
     {itemlist::weapons::24} = "rapier_goldenapple"
 
-function testFunction():
-    broadcast "test"
