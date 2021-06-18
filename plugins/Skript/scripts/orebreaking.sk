@@ -6,21 +6,21 @@ on block place:
           cancel event
           send message "§4You cannot do that here" to player
 
-on Skript start:
-  loop {iron_ore::*}:
-    set block at {iron_ore::%loop-index%} to iron ore
-  loop {gold_ore::*}:
-    set block at {gold_ore::%loop-index%} to gold ore
-  loop {coal_ore::*}:
-    set block at {coal_ore::%loop-index%} to coal ore
-  loop {diamond_ore::*}:
-    set block at {diamond_ore::%loop-index%} to diamond ore
-  loop {emerald_ore::*}:
-    set block at {emerald_ore::%loop-index%} to emerald ore
-  loop {lapis_ore::*}:
-    set block at {lapis_ore::%loop-index%} to lapis ore
-  loop {redstone_ore::*}:
-    set block at {redstone_ore::%loop-index%} to redstone ore
+#on Skript start:
+#  loop {iron_ore::*}:
+#    set block at {iron_ore::%loop-index%} to iron ore
+#  loop {gold_ore::*}:
+#    set block at {gold_ore::%loop-index%} to gold ore
+#  loop {coal_ore::*}:
+#    set block at {coal_ore::%loop-index%} to coal ore
+#  loop {diamond_ore::*}:
+#    set block at {diamond_ore::%loop-index%} to diamond ore
+#  loop {emerald_ore::*}:
+#    set block at {emerald_ore::%loop-index%} to emerald ore
+#  loop {lapis_ore::*}:
+#    set block at {lapis_ore::%loop-index%} to lapis ore
+#  loop {redstone_ore::*}:
+#    set block at {redstone_ore::%loop-index%} to redstone ore
 
 
 

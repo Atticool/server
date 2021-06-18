@@ -1,44 +1,77 @@
-variables:
-    {itemlist::armour::1} = "guard_helmet"
-    {itemlist::armour::2} = "guard_chestplate"
-    {itemlist::armour::3} = "guard_leggings"
-    {itemlist::armour::4} = "guard_boots"
+#variables:
+    #{itemlist::armour::1} = "guard_helmet"
+    #{itemlist::armour::2} = "guard_chestplate"
+    #{itemlist::armour::3} = "guard_leggings"
+    #{itemlist::armour::4} = "guard_boots"
 
-    {itemlist::food::1} = "appleingot"
-    {itemlist::food::2} = "banana"
-    {itemlist::food::3} = "croissant"
-    {itemlist::food::4} = "pear"
-    {itemlist::food::5} = "toast"
+    #{itemlist::food::1} = "appleingot"
+    #{itemlist::food::2} = "banana"
+    #{itemlist::food::3} = "croissant"
+    #{itemlist::food::4} = "pear"
+    #{itemlist::food::5} = "toast"
 
-    {itemlist::materials::1} = "bag_of_loot"
-    {itemlist::materials::2} = "bloodthorne"
-    {itemlist::materials::3} = "substance_zero"
-    {itemlist::materials::4} = "sulphurdust"
+    #{itemlist::materials::1} = "bag_of_loot"
+    #{itemlist::materials::2} = "bloodthorne"
+    #{itemlist::materials::3} = "substance_zero"
+    #{itemlist::materials::4} = "sulphurdust"
 
-    {itemlist::spells::1} = "tradewinds"
+    #{itemlist::spells::1} = "tradewinds"
 
-    {itemlist::weapons::1} = "blood_gauntlet"
-    {itemlist::weapons::2} = "cleaver"
-    {itemlist::weapons::3} = "fakeherosword"
-    {itemlist::weapons::4} = "guard_axe"
-    {itemlist::weapons::5} = "guard_blade"
-    {itemlist::weapons::6} = "halberd_diamond"
-    {itemlist::weapons::7} = "halberd_golden"
-    {itemlist::weapons::8} = "halberd_iron"
-    {itemlist::weapons::9} = "hammer_diamond"
-    {itemlist::weapons::10} = "hammer_golden"
-    {itemlist::weapons::11} = "hammer_iron"
-    {itemlist::weapons::12} = "katana_diamond"
-    {itemlist::weapons::13} = "katana_golden"
-    {itemlist::weapons::14} = "katana_iron"
-    {itemlist::weapons::15} = "katana_netherite"
-    {itemlist::weapons::16} = "katana_stone"
-    {itemlist::weapons::17} = "katana_wooden"
-    {itemlist::weapons::18} = "mace_diamond"
-    {itemlist::weapons::19} = "mace_gold"
-    {itemlist::weapons::20} = "mace_iron"
-    {itemlist::weapons::21} = "rapier"
-    {itemlist::weapons::22} = "rapier_apple"
-    {itemlist::weapons::23} = "rapier_enchantedgoldenapple"
-    {itemlist::weapons::24} = "rapier_goldenapple"
+    #{itemlist::weapons::1} = "blood_gauntlet"
+    #{itemlist::weapons::2} = "cleaver"
+    #{itemlist::weapons::3} = "fakeherosword"
+    #{itemlist::weapons::4} = "guard_axe"
+    #{itemlist::weapons::5} = "guard_blade"
+    #{itemlist::weapons::6} = "halberd_diamond"
+    #{itemlist::weapons::7} = "halberd_golden"
+    #{itemlist::weapons::8} = "halberd_iron"
+    #{itemlist::weapons::9} = "hammer_diamond"
+    #{itemlist::weapons::10} = "hammer_golden"
+    #{itemlist::weapons::11} = "hammer_iron"
+    #{itemlist::weapons::12} = "katana_diamond"
+    #{itemlist::weapons::13} = "katana_golden"
+    #{itemlist::weapons::14} = "katana_iron"
+    #{itemlist::weapons::15} = "katana_netherite"
+   # {itemlist::weapons::16} = "katana_stone"
+   # {itemlist::weapons::17} = "katana_wooden"
+   # {itemlist::weapons::18} = "mace_diamond"
+   # {itemlist::weapons::19} = "mace_gold"
+   # {itemlist::weapons::20} = "mace_iron"
+   # {itemlist::weapons::21} = "rapier"
+   # {itemlist::weapons::22} = "rapier_apple"
+   # {itemlist::weapons::23} = "rapier_enchantedgoldenapple"
+   # {itemlist::weapons::24} = "rapier_goldenapple"
 
+#function skccSet(entity:entity, item:item, string:string):
+#only use item arg with player / entity's held item
+#    set {_nbt} to nbt compound of {_item}
+#    #set tag "skccid" of {_nbt} to {_string}
+#    add "{skccid:""%{_string}%""}" to {_nbt}
+#    set {_changeditem} to item from nbt {_nbt}
+#    #delete {_entity}'s held item
+#    #give item from nbt {_nbt} to {_entity}
+#    set {_entity}'s tool to {_changeditem}
+
+command /skccset <string>:
+    description: Changes the "skccid" NBT tag of the held item to the given argument. Only set this to the WolfyUtilities (CC) ID of the item.
+    permission: skript.skccset
+    executable by: players
+    trigger:
+        set {_player} to player
+        set {_item} to player's tool
+        #skccSet({_player}, {_item}, arg 1)
+        set {_n} to nbt compound of player's tool
+        broadcast "%{_n}%"
+        set tag "skccid" of {_n} to 4
+        set player's tool to item from nbt {_n}
+        message "&aAdded &b%arg 1% &ato &b%{_item}%"
+
+command /skccadd:
+    description: Adds the held item to the itemlist array
+    permission: skript.skccadd
+    executable by: players
+    aliases: /skccadd
+    trigger:
+        set {_nbt} to nbt compound of player's held item
+        set {_publicbukkitvalues} to tag "CustomModelData" of {_nbt}
+        broadcast "%{_publicbukkitvalues}%"
